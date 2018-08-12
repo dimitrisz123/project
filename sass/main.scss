@@ -1,0 +1,172 @@
+div#header-overide {
+	background: linear-gradient(
+		129deg,
+		rgba(#2980b9, 0.5) 0%,
+		rgba(#6dd5fa, 0.5) 100%
+	);
+}
+
+.images {
+	padding: 30px;
+	padding-top: 60px;
+	background: #f7f7f7;
+	display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+	.images {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+div#carouselExampleIndicators {
+	min-height: 100%;
+	min-width: 60%;
+}
+
+.comments {
+	margin-left: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	font-size: 0.8rem;
+	flex: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+	.comments {
+		flex: 1;
+		margin: 0;
+	}
+}
+
+.avatar {
+	height: 8rem;
+	max-width: 8rem;
+	border-radius: 1000px;
+	padding: 0.5rem;
+}
+
+div#reviews {
+	padding: 0.3rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 0px;
+	height: 50%;
+	margin: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+	div#reviews {
+		margin: 0px;
+		margin-top: 20px;
+	}
+}
+
+.title {
+	font-size: 0.9rem;
+	padding-top: 10px;
+}
+
+.features {
+	background: linear-gradient(
+		129deg,
+		rgba(#2980b9, 0.5) 0%,
+		rgba(#6dd5fa, 0.7) 100%
+	);
+	padding: 30px;
+}
+
+.featurein {
+	margin: 20px;
+	padding: 20px;
+	width: 20%;
+	height: 50%;
+}
+
+@media only screen and (max-width: 850px) {
+	.featurein {
+		width: 50%;
+	}
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 850px) {
+	.row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.now-ui-icons {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.products_section {
+	position: relative;
+	background: #f7f7f7;
+	padding: 30px;
+	padding-top: 100px;
+}
+
+.bg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	opacity: 0.4;
+	overflow: hidden;
+}
+
+.video-content {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.products {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1100px) {
+	.products {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.signup {
+	background: linear-gradient(
+		129deg,
+		rgba(#2980b9, 0.5) 0%,
+		rgba(#6dd5fa, 0.7) 100%
+	);
+	padding: 50px;
+}
+
+.footer_image {
+	display: flex;
+	justify-content: center;
+}
