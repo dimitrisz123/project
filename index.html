@@ -76,7 +76,14 @@
     <!-- End Navbar -->
     <div class="wrapper">
         <div class="page-header clear-filter" filter-color="orange" id="header-overide">
-            <div class="page-header-image" data-parallax="true" style="background-image: url(./photos/drone.jpeg);">
+            <!-- <div class="page-header-image" data-parallax="true" style="background-image: url(./photos/drone.jpeg);">
+            </div> -->
+            <div class="bg-video page-header-image" data-parallax="true">
+                <video class=video-content loop autoplay muted>
+                  <source src="photos/video1.mp4" type="video/mp4">
+                  <source src="photos/video2.webm" type="video/webm">
+                  Your browser does not support the video tag.
+                </video>
             </div>
             <div class="container">
                 <div class="content-center brand">                    
@@ -193,14 +200,7 @@
 
             <!-- PRODUCTS -->
                 <div class=products_section id=products>
-                  <div class=bg-video>
-                      <video class=video-content loop autoplay muted>
-                        <source src="photos/video1.mp4" type="video/mp4">
-                        <source src="photos/video2.webm" type="video/webm">
-                        Your browser does not support the video tag.
-                      </video>
-                  </div>
-                    <div class= "products">
+                      <div class= "products">
                         <div class="card" id="firstdrone" style="width: 20rem;">
                           <img class="card-img-top" src="/photos/quad1.jpg" height="250px" alt="Card image cap">
                           <div class="card-body center">
@@ -337,13 +337,13 @@
                       <form action="https://facebook.us19.list-manage.com/subscribe/post?u=ba14bf456174ca705c9f27361&amp;id=58450662c3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                           <div class="signup-content" id="mc_embed_signup_scroll">
                             <label for="mce-EMAIL">Subscribe to our mailing list</label>
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="email address" required>
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                             <div style="position: absolute; left: -5000px;" aria-hidden="true">
                               <input type="text" name="b_ba14bf456174ca705c9f27361_58450662c3" tabindex="-1" value="">
                             </div>
                             <div class="clear">
-                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-round">
                             </div>
                           </div>
                       </form>

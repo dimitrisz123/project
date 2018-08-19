@@ -3,8 +3,8 @@
 div#header-overide {
 	background: linear-gradient(
 		129deg,
-		rgba(#2980b9, 0.5) 0%,
-		rgba(#6dd5fa, 0.5) 100%
+		rgba(#7C7C7C, 0.15) 0%,
+		rgba(#7C7C7C, 0.15) 100%
 	);
 }
 
@@ -224,7 +224,10 @@ div#review2 {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+}
 
+.form-control {
+	margin-bottom: 0.2rem;
 }
 
 .footer {

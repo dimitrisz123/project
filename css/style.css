@@ -21,7 +21,7 @@
     opacity: 1; } }
 
 div#header-overide {
-  background: linear-gradient(129deg, rgba(41, 128, 185, 0.5) 0%, rgba(109, 213, 250, 0.5) 100%); }
+  background: linear-gradient(129deg, rgba(124, 124, 124, 0.15) 0%, rgba(124, 124, 124, 0.15) 100%); }
 
 h1.h1-seo {
   animation: FadeInRight 1s; }
@@ -196,6 +196,9 @@ div#review2 {
   justify-content: center;
   align-items: center;
   height: 100%; }
+
+.form-control {
+  margin-bottom: 0.2rem; }
 
 .footer {
   padding-top: 10rem; }
