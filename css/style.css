@@ -21,7 +21,22 @@
     opacity: 1; } }
 
 div#header-overide {
-  background: linear-gradient(129deg, rgba(6, 6, 6, 0.2) 0%, rgba(6, 6, 6, 0.2) 100%); }
+  background: linear-gradient(129deg, rgba(41, 128, 185, 0.5) 0%, rgba(109, 213, 250, 0.2) 100%); }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 1;
+  overflow: hidden; }
+
+.video-content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
 
 h1.h1-seo {
   animation: FadeInRight 1s; }
@@ -60,11 +75,24 @@ div#carouselExampleIndicators {
     flex: 1;
     margin: 0; } }
 
+@media only screen and (max-width: 500px) {
+  .comments {
+    flex: 1;
+    margin: 0;
+    font-size: 0.6rem; } }
+
 .avatar {
   height: 8rem;
   max-width: 8rem;
   border-radius: 1000px;
   padding: 0.5rem; }
+
+@media only screen and (max-width: 650px) {
+  .avatar {
+    height: 6rem;
+    max-width: 6rem;
+    border-radius: 1000px;
+    padding: 0.3rem; } }
 
 div#review1 {
   padding: 0.3rem;
@@ -91,6 +119,9 @@ div#review2 {
 
 .card-body {
   padding: 0.5rem; }
+
+.products-inner {
+  padding: 0 2rem 2rem; }
 
 .more-comments {
   align-self: center; }
@@ -136,21 +167,6 @@ div#review2 {
   padding: 30px;
   padding-top: 100px; }
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-  opacity: 0.6;
-  overflow: hidden; }
-
-.video-content {
-  height: 100%;
-  width: 100%;
-  object-fit: cover; }
-
 .products {
   display: flex;
   justify-content: space-evenly; }
@@ -179,6 +195,18 @@ div#review2 {
   height: 5.5rem;
   margin: 1rem; }
 
+@media only screen and (max-width: 850px) {
+  .icon-comp {
+    width: 4rem;
+    height: 4rem;
+    margin: 0.8rem; } }
+
+@media only screen and (max-width: 650px) {
+  .icon-comp {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.4rem; } }
+
 .signup-content {
   display: flex;
   flex-direction: column; }
@@ -190,6 +218,14 @@ div#review2 {
   height: 20rem;
   transform: translateY(9rem);
   background: #FFFFFF; }
+
+@media only screen and (max-width: 750px) {
+  .signup-card {
+    display: flex;
+    margin: 2rem auto;
+    width: 70%;
+    height: 20rem;
+    transform: translateY(9rem); } }
 
 .signup-form {
   display: flex;
