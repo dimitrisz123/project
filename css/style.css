@@ -242,3 +242,68 @@ div#review2 {
 .footer_image {
   display: flex;
   justify-content: center; }
+
+.lens-section {
+  display: flex;
+  flex-direction: row; }
+
+@media only screen and (max-width: 1000px) {
+  .lens-section {
+    display: none; } }
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 4rem; }
+
+.lenses-heading {
+  letter-spacing: 0.2rem; }
+
+.lenses-paragraph {
+  margin: 0;
+  padding: 0 9rem; }
+
+@media only screen and (max-width: 1100px) {
+  .lenses-paragraph {
+    font-size: 0.8rem; } }
+
+.right-col {
+  flex: 1;
+  position: relative;
+  margin: 4rem;
+  transform: translateX(-5rem); }
+  .right-col:hover .right-col.lenses-image:not(:hover) {
+    transform: scale(0.95); }
+
+.lenses-image {
+  position: absolute;
+  width: 50%;
+  z-index: 10;
+  border-radius: 2px;
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4); }
+  .lenses-image:hover {
+    transform: scale(1.05);
+    z-index: 20;
+    box-shadow: 0 2.5rem 3rem rgba(0, 0, 0, 0.5); }
+
+.lenses-image-photo1 {
+  top: 0;
+  left: 0; }
+
+.lenses-image-photo2 {
+  top: 14.1%;
+  left: 12.5%; }
+
+.lenses-image-photo3 {
+  top: 28.2%;
+  left: 25%; }
+
+.lenses-image-photo4 {
+  top: 42.3%;
+  left: 37.5%; }
+
+.lenses-image-photo5 {
+  top: 56.45%;
+  left: 50%; }
