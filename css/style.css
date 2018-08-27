@@ -50,7 +50,11 @@ h1.h1-seo {
 .images {
   padding: 30px;
   padding-top: 60px;
-  background: #f7f7f7;
+  background: #f7f7f7; }
+
+.images-width {
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex; }
 
 @media only screen and (max-width: 1200px) {
@@ -147,7 +151,9 @@ div#review2 {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  max-width: 1400px;
+  margin: 0 auto; }
 
 @media only screen and (max-width: 850px) {
   .row {
@@ -169,7 +175,9 @@ div#review2 {
 
 .products {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  max-width: 1400px;
+  margin: 0 auto; }
 
 @media only screen and (max-width: 1100px) {
   .products {
@@ -245,7 +253,9 @@ div#review2 {
 
 .lens-section {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  max-width: 1400px;
+  margin: 0 auto; }
 
 @media only screen and (max-width: 1000px) {
   .lens-section {
