@@ -8,23 +8,6 @@ div#header-overide {
 	);
 }
 
-.bg-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 0;	
-	opacity: 1;
-	overflow: hidden;
-}
-
-.video-content {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-}
-
 h1.h1-seo {
 	animation: FadeInRight 1s;
 }
@@ -194,9 +177,26 @@ div#review2 {
 
 .products_section {
 	position: relative;
-	background: #f7f7f7;
+	// background: #f7f7f7;
 	padding: 30px;
 	padding-top: 100px;	
+}
+
+.bg-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 0;	
+	opacity: 0.6;
+	overflow: hidden;
+}
+
+.video-content {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 .products {
