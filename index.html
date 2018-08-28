@@ -29,13 +29,7 @@
       text-align: center;
       width: 21px;
     }   
-  </style>
-
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
-  <script type="text/javascript">
-    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-    observer.observe();
-  </script>
+  </style>  
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -107,7 +101,7 @@
               <p class="lenses-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Et netus et malesuada fames ac turpis egestas. Orci sagittis eu volutpat odio facilisis mauris. Vulputate ut pharetra sit amet aliquam id. Massa ultricies mi quis hendrerit dolor.</p>
             </div>  
             <div class="right-col">
-              <img class="lenses-image lenses-image-photo1 lozad" src="none.png" data-src="photos/lens1.png">
+              <img class="lenses-image lenses-image-photo1 lozad" data-src="photos/lens1.png">
               <img class="lenses-image lenses-image-photo2" src="photos/lens2.jpg">
               <img class="lenses-image lenses-image-photo3" src="photos/lens3.jpg">
               <img class="lenses-image lenses-image-photo4" src="photos/lens4.jpg">
@@ -432,6 +426,11 @@
 </body>
 
 <!--   Core JS Files   -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+<script type="text/javascript">
+  const observer = lozad('.lozad'); // lazy loads elements with default selector as '.lozad'
+  observer.observe();
+</script>
 <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/jquery.min.js"></script>
 <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/popper.min.js"></script>
 <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/core/bootstrap.min.js"></script>
