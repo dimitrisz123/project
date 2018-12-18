@@ -2,7 +2,7 @@ Instructions:
 
 You can either visit the provided link: https://dimitrisz123.github.io/
 
-  -OR- if you want to clone you will need to run the live-server command
+  OR if you want to clone you will need to run the live-server command
   
 - git clone https://github.com/dimitrisz123/dimitrisz123.github.io.git
 
